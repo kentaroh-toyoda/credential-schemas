@@ -3,7 +3,7 @@
         "$metadata": {
             "type": "singPassDemoCredential",
             "uris": {
-                "jsonLdContext": "ipfs://QmZAD9WDQeu4689Bkm54iTJDjh88TxjjRgcELZJGoKTSgD"
+                "jsonSchema": "https://raw.githubusercontent.com/kentaroh-toyoda/credential-schemas/master/singpassdemo.json"
             },
             "version": "1.0"
         },

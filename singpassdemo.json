@@ -1,5 +1,4 @@
 {
-    "data": {
         "$metadata": {
             "type": "singPassDemoCredential",
             "uris": {
@@ -7,6 +6,16 @@
             },
             "version": "1.0"
         },
+        "required": [
+            "@context",
+            "id",
+            "issuanceDate",
+            "issuer",
+            "type",
+            "credentialSubject",
+            "credentialSchema"
+        ],
+        "type": "object",
         "$schema": "https://json-schema.org/draft/2020-12/schema",
         "description": "Test",
         "title": "SingPassDemo",
@@ -116,17 +125,5 @@
                 ],
                 "type": "object"
             }
-        },
-        "required": [
-            "@context",
-            "id",
-            "issuanceDate",
-            "issuer",
-            "type",
-            "credentialSubject",
-            "credentialSchema"
-        ],
-        "type": "object"
-    },
-    "success": true
+        }
 }
